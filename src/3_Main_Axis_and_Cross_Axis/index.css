@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: peru;
+  color: white;
+}
