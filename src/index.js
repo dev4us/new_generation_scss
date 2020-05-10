@@ -5,7 +5,8 @@ import ReactDOM from "react-dom";
 // import App from "./3_Main_Axis_and_Cross_Axis";
 // import App from "./4_Column_and_Row";
 //import App from "./5_Align-self_and_order";
-import App from "./6_Any_wrap_series_align_content";
+// import App from "./6_Any_wrap_series_align_content";
+import App from "./7_Flex_grow_Flex_shrink";
 
 ReactDOM.render(
   <React.StrictMode>

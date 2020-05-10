@@ -1,0 +1,26 @@
+.father {
+  display: flex;
+  justify-content: space-around;
+  height: 200vh;
+  flex-wrap: nowrap;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  background: peru;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child:nth-child(2) {
+  flex-shrink: 4; /* 해상도가 줄어들면 해당 수치만큼 더 크게 줄어듦*/
+  background: black;
+}
+
+.child:nth-child(3) {
+  flex-grow: 3; /* 해상도가 커지면 해당 수치만큼 더 크게 커짐*/
+}
