@@ -1,0 +1,25 @@
+.father {
+  display: grid;
+  grid-template-columns: 20px 55px 89px 100px;
+  grid-template-rows: 100px 50px 200px;
+  /* column-gap: 10px;
+  row-gap: 10px; */
+  gap: 10px;
+}
+
+.child {
+  background: peru;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.child:nth-child(2) {
+  flex-shrink: 4; /* 해상도가 줄어들면 해당 수치만큼 더 크게 줄어듦*/
+  background: black;
+}
+
+.child:nth-child(3) {
+  flex-grow: 3; /* 해상도가 커지면 해당 수치만큼 더 크게 커짐*/
+}
